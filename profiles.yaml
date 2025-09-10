@@ -1,0 +1,11 @@
+itsm_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: itsm_user
+      password: itsm_pass
+      port: 5432
+      dbname: itsm_db
+      schema: public
