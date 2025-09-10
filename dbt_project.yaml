@@ -1,0 +1,12 @@
+name: 'itsm_dbt'
+version: '1.0'
+config-version: 2
+
+profile: 'itsm_dbt'  # this must match the profile name in profiles.yml
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+model-paths: ["models"]
